@@ -1,0 +1,119 @@
+/* body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+} */
+
+body,html {
+  height: 100%;
+  color: #1e1e1e;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* .w3-wide {
+  letter-spacing: 12px;
+  margin-right: -12px;
+} */
+
+/* .w3-hover-opacity {
+  cursor: pointer;
+} */
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+
+  .bgimg-1 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+/* 
+.hero-overlay .btn {
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+} */
+
+.btn-primary {
+  border-color: #0095eb !important;
+  background: #0498ee !important;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited,
+.open>.dropdown-toggle.btn-primary {
+  background: #0095eb !important;
+}
+
+.btn-primary.btn-outline {
+  color: #0095eb !important;
+  border-color: #0095eb !important;
+}
+
+.btn-primary.btn-outline:focus {
+  color: #0095eb !important;
+}
+
+.btn-primary.btn-outline:active {
+  color: #fff !important;
+}
+
+/* .btn-light {
+  border-color: #fff !important;
+  background: #fff !important;
+}
+
+.btn-light:hover,
+.btn-light:active,
+.btn-light.active {
+  background: rgba(0, 0, 0, 0.4) !important;
+} */
+
+/* .btn-outline {
+  background-color: transparent !important;
+  color: inherit;
+  transition: all .5s;
+} */
+
+/* .btn-light.btn-outline {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-light.btn-outline:focus {
+  color: #fff !important;
+}
+
+.btn-light.btn-outline:active {
+  color: transparent !important;
+} */
+
+/* .btn-success.btn-outline {
+  color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+  color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+  color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+  color: #d9534f;
+} */
+
+.btn-primary.btn-outline:hover,
+.btn-light.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+  color: #fff !important;
+}
+
+/* video {
+  width: 100%;
+  height: auto;
+} */
