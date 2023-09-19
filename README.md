@@ -1,5 +1,5 @@
 # Zehong Shen's Homepage
 
-Feel free to use this for your homepage, but on your page, please attribute the source to my homepage.
+Feel free to use this for your own homepage. And please **ensure** that you remove the script for Google Analytics from the index.html.
 
-Also make sure to remove the script for google-analytics in the `index.html`.
+Some codes are adapted from https://github.com/jonbarron/website.
