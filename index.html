@@ -37,17 +37,29 @@
 
   <!-- 最后一次更新记录 -->
   <div style="text-align:center">
-    <br><br><br><p> Last update 2024-4-16 </p><br><br>
+    <br><br><br><p> Last update 2024-9-1 </p><br><br>
   </div>
 
   <!-- 访问数量监测（google analytics） -->
   <!-- Please change this if you use my homepage -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEC30T48YD"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-KEC30T48YD');
+    // 检查是否在本地环境中
+    if (window.location.hostname !== 'localhost') {
+      // 仅在非本地环境中加载Google Analytics
+      (function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-KEC30T48YD';
+        document.head.appendChild(script);
+
+        script.onload = function() {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-KEC30T48YD');
+        };
+      })();
+    }
   </script>
 
 </body>
