@@ -1,0 +1,26 @@
+{
+  "id": "gift",
+  "group": "recent",
+  "title": "GIFT: Learning Transformation-Invariant Dense Visual Descriptors via Group CNNs",
+  "authors": [
+    { "name": "Yuan Liu" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Zhixuan Lin" },
+    { "name": "Sida Peng" },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "NeurIPS",
+  "year": "2019",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/world/neurips19_gift.jpg",
+    "alt": "GIFT teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/GIFT" },
+    { "label": "arXiv", "url": "https://arxiv.org/abs/1911.05932" },
+    { "label": "slides", "url": "publication/slides/GIFT_slides.pdf" }
+  ]
+}

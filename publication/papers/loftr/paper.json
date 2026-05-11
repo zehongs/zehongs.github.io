@@ -1,0 +1,24 @@
+{
+  "id": "loftr",
+  "group": "selected",
+  "title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+  "authors": [
+    { "name": "Zehong Shen", "highlight": true, "suffix": "*" },
+    { "name": "Jiaming Sun", "suffix": "*" },
+    { "name": "Yuang Wang", "suffix": "*" },
+    { "name": "Xingyi He" },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "CVPR 2021, TPAMI 2022",
+  "badges": ["2.9K+ Stars", "2.4K+ Citations"],
+  "media": {
+    "type": "image",
+    "src": "images/world/cvpr21_loftr.jpg",
+    "alt": "LoFTR teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/loftr" },
+    { "label": "arXiv", "url": "https://arxiv.org/pdf/2104.00680" }
+  ]
+}

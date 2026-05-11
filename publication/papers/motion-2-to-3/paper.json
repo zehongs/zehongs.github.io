@@ -1,0 +1,30 @@
+{
+  "id": "motion-2-to-3",
+  "group": "recent",
+  "title": "Motion-2-to-3: Leveraging 2D Motion Data to Boost 3D Motion Generation",
+  "authors": [
+    { "name": "Ruoxi Guo", "suffix": "*" },
+    { "name": "Huaijin Pi", "suffix": "*" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Qing Shuai" },
+    { "name": "Zechen Hu" },
+    { "name": "Zhumei Wang" },
+    { "name": "Yajiao Dong" },
+    { "name": "Ruizhen Hu" },
+    { "name": "Taku Komura" },
+    { "name": "Sida Peng" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "ICCV",
+  "year": "2025",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/human/24_motion2to3_2.png",
+    "alt": "Motion-2-to-3 teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/Motion-2-to-3/" },
+    { "label": "arXiv", "url": "https://arxiv.org/abs/2412.13111" }
+  ]
+}

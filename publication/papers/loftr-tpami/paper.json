@@ -1,0 +1,25 @@
+{
+  "id": "loftr-tpami",
+  "group": "recent",
+  "title": "Semi-Dense Feature Matching with Transformers and its Applications in Multiple-View Geometry",
+  "authors": [
+    { "name": "Zehong Shen", "highlight": true, "suffix": "*" },
+    { "name": "Jiaming Sun", "suffix": "*" },
+    { "name": "Yuang Wang", "suffix": "*" },
+    { "name": "Xinyi He" },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "TPAMI",
+  "year": "2022",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/world/tpami22_loftr.jpg",
+    "alt": "Semi-dense feature matching teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/loftr" },
+    { "label": "paper", "url": "https://ieeexplore.ieee.org/abstract/document/9956767" }
+  ]
+}

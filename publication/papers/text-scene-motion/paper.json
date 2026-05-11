@@ -1,0 +1,27 @@
+{
+  "id": "text-scene-motion",
+  "group": "recent",
+  "title": "Generating Human Motion in 3D Scenes from Text Descriptions",
+  "authors": [
+    { "name": "Zhi Cen" },
+    { "name": "Huaijin Pi" },
+    { "name": "Sida Peng" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Minghui Yang" },
+    { "name": "Shuai Zhu" },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "CVPR",
+  "year": "2024",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/human/cvpr24_sahmg.png",
+    "alt": "Human motion in scenes teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/text_scene_motion/" },
+    { "label": "arXiv", "url": "https://drive.google.com/file/d/1ZqJdvObz87CwuOlmUnYZNei54tieMZpZ/view" }
+  ]
+}

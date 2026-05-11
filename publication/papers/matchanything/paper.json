@@ -1,0 +1,26 @@
+{
+  "id": "matchanything",
+  "group": "recent",
+  "title": "MatchAnything: Universal Cross-Modality Image Matching with Large-Scale Pre-Training",
+  "authors": [
+    { "name": "Xingyi He" },
+    { "name": "Hao Yu" },
+    { "name": "Sida Peng" },
+    { "name": "Dongli Tan" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "ArXiv",
+  "year": "2025",
+  "badges": ["1.2K+ Stars"],
+  "media": {
+    "type": "image",
+    "src": "images/world/25_matchanything.png",
+    "alt": "MatchAnything teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/MatchAnything/" },
+    { "label": "arXiv", "url": "https://arxiv.org/abs/2501.07556" }
+  ]
+}

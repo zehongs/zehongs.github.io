@@ -1,0 +1,25 @@
+{
+  "id": "sahmr",
+  "group": "recent",
+  "title": "Learning Human Mesh Recovery in 3D Scenes",
+  "authors": [
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Zhi Cen" },
+    { "name": "Sida Peng" },
+    { "name": "Qing Shuai" },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "CVPR",
+  "year": "2023",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/human/cvpr23_sahmr.jpg",
+    "alt": "Human mesh recovery teaser"
+  },
+  "links": [
+    { "label": "project page", "url": "https://zju3dv.github.io/sahmr" },
+    { "label": "arXiv", "url": "https://arxiv.org/pdf/2306.03847" }
+  ]
+}

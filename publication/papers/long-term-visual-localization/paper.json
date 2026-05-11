@@ -1,0 +1,27 @@
+{
+  "id": "long-term-visual-localization",
+  "group": "recent",
+  "title": "Long-term Visual Localization with Mobile Sensors",
+  "authors": [
+    { "name": "Shen Yan" },
+    { "name": "Yu Liu" },
+    { "name": "Long Wang" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Zhen Peng" },
+    { "name": "Haomin Liu" },
+    { "name": "Maojun Zhang" },
+    { "name": "Guofeng Zhang" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "CVPR",
+  "year": "2023",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/world/cvpr23_locms.png",
+    "alt": "Long-term visual localization teaser"
+  },
+  "links": [
+    { "label": "arXiv", "url": "https://arxiv.org/pdf/2304.07691" }
+  ]
+}
