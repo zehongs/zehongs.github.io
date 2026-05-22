@@ -1,5 +1,5 @@
 (function() {
-  const indexPath = "publication/papers/index.json";
+  const indexPath = "publication/papers/index.json?v=20260522";
 
   function fetchJson(path) {
     return fetch(path).then(function(response) {
@@ -61,9 +61,39 @@
       const video = document.createElement("video");
       video.src = media.src;
       video.muted = true;
-      video.autoplay = true;
       video.loop = true;
       video.playsInline = true;
+      video.preload = media.playOnHover ? "metadata" : "auto";
+
+      if (media.poster) {
+        video.poster = media.poster;
+      }
+
+      if (media.alt) {
+        video.setAttribute("aria-label", media.alt);
+      }
+
+      if (media.playOnHover) {
+        mediaWrap.classList.add("play-on-hover");
+        video.tabIndex = 0;
+
+        const playVideo = function() {
+          video.play().catch(function() {});
+        };
+
+        const resetVideo = function() {
+          video.pause();
+          video.currentTime = 0;
+        };
+
+        mediaWrap.addEventListener("mouseenter", playVideo);
+        mediaWrap.addEventListener("mouseleave", resetVideo);
+        video.addEventListener("focus", playVideo);
+        video.addEventListener("blur", resetVideo);
+      } else {
+        video.autoplay = true;
+      }
+
       mediaWrap.appendChild(video);
       return mediaWrap;
     }

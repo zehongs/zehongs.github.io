@@ -1,0 +1,21 @@
+{
+  "id": "lingbot-world",
+  "group": "recent",
+  "title": "Advancing Open-source World Models",
+  "authors": [
+    { "name": "Robbyant Team" }
+  ],
+  "venue": "2026",
+  "badges": ["3.8K+ Stars", "LingBot-World"],
+  "media": {
+    "type": "video",
+    "src": "https://gw.alipayobjects.com/v/huamei_u94ywh/afts/video/cvsdT70t3EwAAAAAgMAAAAgADkxfAQFr",
+    "poster": "images/world/26_lingbot_world.jpg",
+    "alt": "LingBot-World teaser",
+    "playOnHover": true
+  },
+  "links": [
+    { "label": "project page", "url": "https://technology.robbyant.com/lingbot-world" },
+    { "label": "arXiv", "url": "https://arxiv.org/abs/2601.20540" }
+  ]
+}
