@@ -1,0 +1,49 @@
+{
+  "id": "htd-refine",
+  "group": "recent",
+  "title": "HTD-Refine: Natural Human Motion Recovery by Aligning High-Order Temporal Dynamics from Monocular Videos",
+  "authors": [
+    {
+      "name": "Dingkun Wei",
+      "suffix": "*"
+    },
+    {
+      "name": "Zehong Shen",
+      "highlight": true,
+      "suffix": "*"
+    },
+    {
+      "name": "Yan Xia"
+    },
+    {
+      "name": "Georgios Pavlakos"
+    },
+    {
+      "name": "Yujun Shen"
+    },
+    {
+      "name": "Xiaowei Zhou"
+    }
+  ],
+  "venue": "CVPR",
+  "year": "2026",
+  "badges": [
+    "Oral",
+    "Best Paper Candidate"
+  ],
+  "media": {
+    "type": "image",
+    "src": "images/human/cvpr26_htd_refine_method.png",
+    "alt": "HTD-Refine pipeline"
+  },
+  "links": [
+    {
+      "label": "project page",
+      "url": "https://zju3dv.github.io/htd-refine/"
+    },
+    {
+      "label": "arXiv",
+      "url": "https://arxiv.org/abs/2605.26879"
+    }
+  ]
+}

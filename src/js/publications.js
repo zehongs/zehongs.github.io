@@ -1,5 +1,5 @@
 (function() {
-  const indexPath = "publication/papers/index.json?v=20260522";
+  const indexPath = "publication/papers/index.json?v=20260531";
 
   function fetchJson(path) {
     return fetch(path).then(function(response) {
@@ -46,6 +46,8 @@
 
     paper.badges.forEach(function(badge) {
       const badgeNode = document.createElement("span");
+      const isMetricBadge = /(?:stars|citations)/i.test(badge);
+      badgeNode.className = isMetricBadge ? "badge-metric" : "badge-highlight";
       badgeNode.textContent = badge;
       venueLine.appendChild(badgeNode);
     });

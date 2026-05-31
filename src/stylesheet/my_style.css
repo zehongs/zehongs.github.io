@@ -11,6 +11,9 @@
   --link-hover: #173f4d;
   --rule: #226677;
   --warn: #dd8800;
+  --badge-special: #a62b1f;
+  --badge-special-bg: #fff0ec;
+  --badge-special-line: #e7b5ac;
 }
 
 * {
@@ -353,6 +356,13 @@ code {
   border: 1px solid #ead8bd;
   border-left: 3px solid var(--warn);
   border-radius: 2px;
+}
+
+.venue span.badge-highlight {
+  color: var(--badge-special);
+  background: var(--badge-special-bg);
+  border-color: var(--badge-special-line);
+  border-left-color: var(--badge-special);
 }
 
 .paper-links {
