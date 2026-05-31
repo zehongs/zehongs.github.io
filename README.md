@@ -1,5 +1,21 @@
 # Zehong Shen's Homepage
 
-Feel free to use this for your own homepage. And please **ensure** that you remove the script for Google Analytics from the index.html.
+Personal homepage for Zehong Shen, hosted with GitHub Pages.
 
-Some codes are adapted from https://github.com/jonbarron/website.
+## Structure
+
+- `index.html` loads the static page shell and shared sections.
+- `pages/` contains the profile and publication section markup.
+- `publication/papers/index.json` controls publication order.
+- `publication/papers/<slug>/paper.json` stores each publication entry.
+- `images/` and `publication/slides/` contain media used by the site.
+
+## Local Preview
+
+Serve the repository root with any static HTTP server, for example:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000`.

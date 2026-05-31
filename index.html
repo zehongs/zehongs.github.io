@@ -5,50 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Zehong Shen's personal homepage and selected research publications.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Icons -->
-  <link rel="stylesheet" href="src/stylesheet/academicons/css/academicons.min.css">
-  <!-- Style -->
-  <link rel="stylesheet" href="src/stylesheet/bootstrap/bootstrap.min.css">
-  <!-- Overwrite -->
   <link rel="stylesheet" type="text/css" href="src/stylesheet/my_style.css?v=20260522">
-  <!-- 加载pages下面的两个核心部分内容，保持index.html的简洁 -->
-  <script src="src/js/jquery-1.11.3.min.js"></script>
   <script src="src/js/publications.js?v=20260531"></script>
   <script>
-     $(function() {
-        $("#page_about").load("pages/about.html?v=20260522");
-     });
-  </script>
-  <script>
-     $(function() {
-        $("#page_publications").load("pages/publication.html", function() {
-          window.renderPublications();
+    document.addEventListener("DOMContentLoaded", function() {
+      function loadFragment(targetId, path) {
+        return fetch(path)
+          .then(function(response) {
+            if (!response.ok) {
+              throw new Error("Failed to load " + path + ": " + response.status);
+            }
+            return response.text();
+          })
+          .then(function(html) {
+            document.getElementById(targetId).innerHTML = html;
+          });
+      }
+
+      loadFragment("page_about", "pages/about.html?v=20260522");
+      loadFragment("page_publications", "pages/publication.html")
+        .then(function() {
+          return window.renderPublications();
+        })
+        .catch(function(error) {
+          console.error(error);
         });
-     });
+    });
   </script>
-  <!-- Icons -->
-  <script src="https://kit.fontawesome.com/7a4418cc4b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <main class="site-shell">
-    <!-- 关于部分 -->
     <div id="page_about"></div>
-
-    <!-- 论文部分 -->
     <div id="page_publications"></div>
-
   </main>
 
-  <!-- 访问数量监测（google analytics） -->
-  <!-- Please change this if you use my homepage -->
   <script>
-    // 检查是否在本地环境中
-    if (window.location.hostname !== 'localhost') {
-      // 仅在非本地环境中加载Google Analytics
+    if (!["localhost", "127.0.0.1", ""].includes(window.location.hostname)) {
       (function() {
         var script = document.createElement('script');
         script.async = true;
