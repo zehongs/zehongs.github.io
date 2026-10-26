@@ -1,5 +1,8 @@
 {
   "papers": [
+    "dkwbc",
+    "lhnav",
+    "dexseed",
     "htd-refine",
     "gvhmr",
     "loftr",
@@ -9,7 +12,6 @@
     "text-scene-motion",
     "sahmr",
     "long-term-visual-localization",
-    "loftr-tpami",
     "gift"
   ]
 }

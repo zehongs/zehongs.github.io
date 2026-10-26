@@ -1,0 +1,30 @@
+{
+  "id": "dexseed",
+  "group": "recent",
+  "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
+  "authors": [
+    { "name": "Huaijin Pi" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Yong Wang" },
+    { "name": "Kechun Xu" },
+    { "name": "Changpeng Wang" },
+    { "name": "Dingkun Wei" },
+    { "name": "Xueyang Wang" },
+    { "name": "Wenjia Wang" },
+    { "name": "Yujun Shen" },
+    { "name": "Xing Zhu" },
+    { "name": "Taku Komura" }
+  ],
+  "venue": "",
+  "badges": [],
+  "media": {
+    "type": "video",
+    "src": "images/robotics/dexseed.mp4",
+    "poster": "images/robotics/dexseed.webp",
+    "alt": "DexSeed dexterous manipulation preview",
+    "playOnHover": true
+  },
+  "links": [
+    { "label": "project page", "url": "https://phj128.github.io/page/DexSeed/" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "loftr",
   "group": "selected",
-  "title": "LoFTR: Detector-Free Local Feature Matching with Transformers",
+  "title": "LoFTR: Semi-dense feature matching with transformers and its applications in multiple-view geometry",
   "authors": [
     { "name": "Zehong Shen", "highlight": true, "suffix": "*" },
     { "name": "Jiaming Sun", "suffix": "*" },
@@ -11,7 +11,7 @@
     { "name": "Xiaowei Zhou" }
   ],
   "venue": "CVPR 2021, TPAMI 2022",
-  "badges": ["2.9K+ Stars", "2.5K+ Citations"],
+  "badges": ["3K Stars", "3000+ Citations"],
   "media": {
     "type": "image",
     "src": "images/world/cvpr21_loftr.jpg",

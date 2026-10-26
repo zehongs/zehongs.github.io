@@ -1,7 +1,7 @@
 {
   "id": "gvhmr",
   "group": "selected",
-  "title": "World-Grounded Human Motion Recovery via Gravity-View Coordinates",
+  "title": "GVHMR: Gravity-View Coordinates for Global Human Motion Recovery From Monocular Videos",
   "authors": [
     { "name": "Zehong Shen", "highlight": true, "suffix": "*" },
     { "name": "Huaijin Pi", "suffix": "*" },
@@ -14,7 +14,7 @@
     { "name": "Xiaowei Zhou" }
   ],
   "venue": "SIGGRAPH Asia 2024, TPAMI 2026",
-  "badges": ["1.6K+ Stars", "100+ Citations"],
+  "badges": ["2.2K Stars", "220+ Citations"],
   "media": {
     "type": "video",
     "src": "images/human/siga24_gvhmr.mp4",

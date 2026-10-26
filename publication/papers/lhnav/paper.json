@@ -1,0 +1,26 @@
+{
+  "id": "lhnav",
+  "group": "recent",
+  "title": "From Long-Horizon Instructions to Natural Humanoid Navigation: A Multirate System with Physics-Grounded Action Data",
+  "authors": [
+    { "name": "Xueyang Wang" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Dingkun Wei" },
+    { "name": "Huaijin Pi" },
+    { "name": "Changpeng Wang" },
+    { "name": "Yujun Shen" },
+    { "name": "Xing Zhu" },
+    { "name": "Hujun Bao" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "",
+  "badges": [],
+  "media": {
+    "type": "video",
+    "src": "images/robotics/lhnav.mp4",
+    "poster": "images/robotics/lhnav.webp",
+    "alt": "Long-horizon humanoid navigation preview",
+    "playOnHover": true
+  },
+  "links": []
+}

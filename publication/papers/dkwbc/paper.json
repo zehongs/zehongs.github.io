@@ -1,0 +1,25 @@
+{
+  "id": "dkwbc",
+  "group": "recent",
+  "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
+  "authors": [
+    { "name": "Dingkun Wei" },
+    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Huaijin Pi" },
+    { "name": "Xueyang Wang" },
+    { "name": "Xing Zhu" },
+    { "name": "Hujun Bao" },
+    { "name": "Yujun Shen" },
+    { "name": "Xiaowei Zhou" }
+  ],
+  "venue": "",
+  "badges": [],
+  "media": {
+    "type": "video",
+    "src": "images/robotics/dkwbc.mp4",
+    "poster": "images/robotics/dkwbc-teaser.webp",
+    "alt": "DKWBC humanoid whole-body control preview",
+    "playOnHover": true
+  },
+  "links": []
+}

@@ -1,5 +1,5 @@
 (function() {
-  const indexPath = "publication/papers/index.json?v=20260531";
+  const indexPath = "publication/papers/index.json?v=20261026-6";
 
   function fetchJson(path) {
     return fetch(path).then(function(response) {
@@ -79,6 +79,20 @@
         mediaWrap.classList.add("play-on-hover");
         video.tabIndex = 0;
 
+        if (media.poster) {
+          const poster = document.createElement("img");
+          poster.className = "publication-poster";
+          poster.src = media.poster;
+          poster.alt = "";
+          mediaWrap.appendChild(poster);
+
+          video.addEventListener("playing", function() {
+            if (!video.paused) {
+              mediaWrap.classList.add("is-playing");
+            }
+          });
+        }
+
         const playVideo = function() {
           video.play().catch(function() {});
         };
@@ -86,6 +100,7 @@
         const resetVideo = function() {
           video.pause();
           video.currentTime = 0;
+          mediaWrap.classList.remove("is-playing");
         };
 
         mediaWrap.addEventListener("mouseenter", playVideo);
@@ -143,8 +158,12 @@
 
     body.appendChild(title);
     body.appendChild(renderAuthors(paper.authors));
-    body.appendChild(renderVenue(paper));
-    body.appendChild(renderLinks(paper.links));
+    if (paper.venue || paper.badges.length) {
+      body.appendChild(renderVenue(paper));
+    }
+    if (paper.links.length) {
+      body.appendChild(renderLinks(paper.links));
+    }
 
     article.appendChild(renderMedia(paper.media));
     article.appendChild(body);
