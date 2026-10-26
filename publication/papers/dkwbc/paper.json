@@ -4,7 +4,7 @@
   "title": "DKWBC: Decoupling Motion Tracking and Balancing for Humanoid Whole-Body Control",
   "authors": [
     { "name": "Dingkun Wei" },
-    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Zehong Shen", "highlight": true, "suffix": "†" },
     { "name": "Huaijin Pi" },
     { "name": "Xueyang Wang" },
     { "name": "Xing Zhu" },

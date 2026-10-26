@@ -4,7 +4,7 @@
   "title": "DexSeed: Expanding Human Hand–Object Interactions into Robot Demonstrations for Dexterous Policy Learning",
   "authors": [
     { "name": "Huaijin Pi" },
-    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Zehong Shen", "highlight": true, "suffix": "†" },
     { "name": "Yong Wang" },
     { "name": "Kechun Xu" },
     { "name": "Changpeng Wang" },

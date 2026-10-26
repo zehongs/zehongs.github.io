@@ -1,0 +1,25 @@
+{
+  "id": "garden",
+  "group": "recent",
+  "title": "GARDEN: Gravity-Aligned Reconstruction of Disentangled ENvironments from RGB images",
+  "authors": [
+    { "name": "Jiahao Sun" },
+    { "name": "Dingkun Wei" },
+    { "name": "Zehong Shen", "highlight": true, "suffix": "†" },
+    { "name": "Hongyu Zhou" },
+    { "name": "Yujun Shen" },
+    { "name": "Liang Li" }
+  ],
+  "venue": "ECCV",
+  "year": "2026",
+  "badges": [],
+  "media": {
+    "type": "image",
+    "src": "images/world/garden-teaser.webp",
+    "alt": "GARDEN reconstruction and simulation pipeline"
+  },
+  "links": [
+    { "label": "project page", "url": "https://sunjiahaovo.github.io/garden/" },
+    { "label": "arXiv", "url": "https://arxiv.org/pdf/2606.03921" }
+  ]
+}

@@ -4,7 +4,7 @@
   "title": "From Long-Horizon Instructions to Natural Humanoid Navigation: A Multirate System with Physics-Grounded Action Data",
   "authors": [
     { "name": "Xueyang Wang" },
-    { "name": "Zehong Shen", "highlight": true },
+    { "name": "Zehong Shen", "highlight": true, "suffix": "†" },
     { "name": "Dingkun Wei" },
     { "name": "Huaijin Pi" },
     { "name": "Changpeng Wang" },

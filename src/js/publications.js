@@ -1,5 +1,5 @@
 (function() {
-  const indexPath = "publication/papers/index.json?v=20261026-6";
+  const indexPath = "publication/papers/index.json?v=20261026-9";
 
   function fetchJson(path) {
     return fetch(path).then(function(response) {
