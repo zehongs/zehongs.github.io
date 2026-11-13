@@ -15,7 +15,8 @@
     { "name": "Xing Zhu" },
     { "name": "Taku Komura" }
   ],
-  "venue": "",
+  "venue": "Preprint",
+  "year": "2026",
   "badges": [],
   "media": {
     "type": "video",
@@ -25,6 +26,7 @@
     "playOnHover": true
   },
   "links": [
-    { "label": "project page", "url": "https://phj128.github.io/page/DexSeed/" }
+    { "label": "project page", "url": "https://robbyant-research.github.io/DexSeed/" },
+    { "label": "arXiv", "url": "https://arxiv.org/abs/2611.14092" }
   ]
 }
